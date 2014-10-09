@@ -266,7 +266,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-position: center;
+    opacity: 0.9;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -311,12 +312,13 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 75px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        color:black;
     }
 }
 
